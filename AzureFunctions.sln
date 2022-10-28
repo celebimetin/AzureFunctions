@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTriggerFunctionApp", "AzureFunctionApp\HttpTriggerFunctionApp.csproj", "{F22B37EE-F383-477D-8E77-B2139F8D5BDC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimerTriggerFunctionApp", "TimerTriggerFunctionApp\TimerTriggerFunctionApp.csproj", "{432BA8B7-6AA9-48F2-A270-9617D5009ED5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobTriggerFunctionApp", "BlobTriggerFunctionApp\BlobTriggerFunctionApp.csproj", "{935F4BAA-9CD4-4D3E-9ACE-2BFAFB1AA3BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTriggerFunctionApp", "QueueTriggerFunctionApp\QueueTriggerFunctionApp.csproj", "{CB389719-CDC0-48D1-880E-4958E0102169}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueTriggerFunctionApp", "QueueTriggerFunctionApp\QueueTriggerFunctionApp.csproj", "{CB389719-CDC0-48D1-880E-4958E0102169}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTriggerFunctionApp", "HttpTriggerFunctionApp\HttpTriggerFunctionApp.csproj", "{580A23B3-629A-447F-8A5F-4ADA9DAE0896}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F22B37EE-F383-477D-8E77-B2139F8D5BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F22B37EE-F383-477D-8E77-B2139F8D5BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F22B37EE-F383-477D-8E77-B2139F8D5BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F22B37EE-F383-477D-8E77-B2139F8D5BDC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{432BA8B7-6AA9-48F2-A270-9617D5009ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{432BA8B7-6AA9-48F2-A270-9617D5009ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{432BA8B7-6AA9-48F2-A270-9617D5009ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{CB389719-CDC0-48D1-880E-4958E0102169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB389719-CDC0-48D1-880E-4958E0102169}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB389719-CDC0-48D1-880E-4958E0102169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580A23B3-629A-447F-8A5F-4ADA9DAE0896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580A23B3-629A-447F-8A5F-4ADA9DAE0896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580A23B3-629A-447F-8A5F-4ADA9DAE0896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580A23B3-629A-447F-8A5F-4ADA9DAE0896}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
