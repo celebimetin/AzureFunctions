@@ -4,12 +4,12 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using AzureFunctionApp.Models;
+using HttpTriggerFunctionApp.Models;
 using Microsoft.EntityFrameworkCore;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace AzureFunctionApp
+namespace HttpTriggerFunctionApp
 {
     public class HttpTriggerFunction
     {

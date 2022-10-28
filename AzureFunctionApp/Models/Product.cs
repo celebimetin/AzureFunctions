@@ -1,4 +1,4 @@
-﻿namespace AzureFunctionApp.Models
+﻿namespace HttpTriggerFunctionApp.Models
 {
     public class Product
     {

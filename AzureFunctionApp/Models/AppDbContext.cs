@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace AzureFunctionApp.Models
+namespace HttpTriggerFunctionApp.Models
 {
     public class AppDbContext : DbContext
     {
