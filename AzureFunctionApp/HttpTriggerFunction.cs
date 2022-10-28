@@ -11,11 +11,11 @@ using Newtonsoft.Json;
 
 namespace AzureFunctionApp
 {
-    public class ProductFunction
+    public class HttpTriggerFunction
     {
         private const string Route = "Products";
         private readonly AppDbContext _dbContext;
-        public ProductFunction(AppDbContext dbContext)
+        public HttpTriggerFunction(AppDbContext dbContext)
         {
             _dbContext = dbContext;
         }
